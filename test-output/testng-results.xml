@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T06:20:18Z" name="Default suite" finished-at="2023-03-01T06:20:43Z" duration-ms="25366">
+    <groups>
+    </groups>
+    <test started-at="2023-03-01T06:20:18Z" name="Default test" finished-at="2023-03-01T06:20:43Z" duration-ms="25366">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:18Z" name="beforeTest" finished-at="2023-03-01T06:20:25Z" duration-ms="7145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="register()[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:25Z" name="register" finished-at="2023-03-01T06:20:27Z" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:27Z" name="afterMethod" finished-at="2023-03-01T06:20:29Z" duration-ms="1072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register status=SUCCESS method=RegisterTest.register()[pri:0, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormFirstNameTest()[pri:1, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:29Z" name="registerFillFormFirstNameTest" finished-at="2023-03-01T06:20:29Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormFirstNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:29Z" name="afterMethod" finished-at="2023-03-01T06:20:29Z" duration-ms="744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormFirstNameTest status=SUCCESS method=RegisterTest.registerFillFormFirstNameTest()[pri:1, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormLastNameTest()[pri:2, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:29Z" name="registerFillFormLastNameTest" finished-at="2023-03-01T06:20:30Z" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormLastNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:30Z" name="afterMethod" finished-at="2023-03-01T06:20:30Z" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormLastNameTest status=SUCCESS method=RegisterTest.registerFillFormLastNameTest()[pri:2, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPhoneTest()[pri:3, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:30Z" name="registerFillFormPhoneTest" finished-at="2023-03-01T06:20:31Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPhoneTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:31Z" name="afterMethod" finished-at="2023-03-01T06:20:31Z" duration-ms="708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPhoneTest status=SUCCESS method=RegisterTest.registerFillFormPhoneTest()[pri:3, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormEmailTest()[pri:4, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:31Z" name="registerFillFormEmailTest" finished-at="2023-03-01T06:20:31Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormEmailTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:31Z" name="afterMethod" finished-at="2023-03-01T06:20:32Z" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormEmailTest status=SUCCESS method=RegisterTest.registerFillFormEmailTest()[pri:4, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormAddressTest()[pri:5, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:32Z" name="registerFillFormAddressTest" finished-at="2023-03-01T06:20:32Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormAddressTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:32Z" name="afterMethod" finished-at="2023-03-01T06:20:33Z" duration-ms="678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormAddressTest status=SUCCESS method=RegisterTest.registerFillFormAddressTest()[pri:5, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCityTest()[pri:6, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:33Z" name="registerFillFormCityTest" finished-at="2023-03-01T06:20:33Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCityTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:33Z" name="afterMethod" finished-at="2023-03-01T06:20:34Z" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCityTest status=SUCCESS method=RegisterTest.registerFillFormCityTest()[pri:6, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormStateTest()[pri:7, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:34Z" name="registerFillFormStateTest" finished-at="2023-03-01T06:20:34Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:34Z" name="afterMethod" finished-at="2023-03-01T06:20:35Z" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormStateTest status=SUCCESS method=RegisterTest.registerFillFormStateTest()[pri:7, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPostalCodeTest()[pri:8, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:35Z" name="registerFillFormPostalCodeTest" finished-at="2023-03-01T06:20:35Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPostalCodeTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:35Z" name="afterMethod" finished-at="2023-03-01T06:20:35Z" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPostalCodeTest status=SUCCESS method=RegisterTest.registerFillFormPostalCodeTest()[pri:8, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCountryTest()[pri:9, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:35Z" name="registerFillFormCountryTest" finished-at="2023-03-01T06:20:36Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCountryTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:36Z" name="afterMethod" finished-at="2023-03-01T06:20:36Z" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCountryTest status=SUCCESS method=RegisterTest.registerFillFormCountryTest()[pri:9, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormUserNameTest()[pri:10, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:36Z" name="registerFillFormUserNameTest" finished-at="2023-03-01T06:20:36Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormUserNameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:36Z" name="afterMethod" finished-at="2023-03-01T06:20:37Z" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormUserNameTest status=SUCCESS method=RegisterTest.registerFillFormUserNameTest()[pri:10, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormPasswordTest()[pri:11, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:37Z" name="registerFillFormPasswordTest" finished-at="2023-03-01T06:20:37Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormPasswordTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:37Z" name="afterMethod" finished-at="2023-03-01T06:20:38Z" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormPasswordTest status=SUCCESS method=RegisterTest.registerFillFormPasswordTest()[pri:11, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFillFormCPasswordTest()[pri:12, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:38Z" name="registerFillFormCPasswordTest" finished-at="2023-03-01T06:20:38Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFillFormCPasswordTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:38Z" name="afterMethod" finished-at="2023-03-01T06:20:39Z" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFillFormCPasswordTest status=SUCCESS method=RegisterTest.registerFillFormCPasswordTest()[pri:12, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="registerFormSubmitBtnTest()[pri:13, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:39Z" name="registerFormSubmitBtnTest" finished-at="2023-03-01T06:20:41Z" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFormSubmitBtnTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:41Z" name="afterMethod" finished-at="2023-03-01T06:20:43Z" duration-ms="1481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFormSubmitBtnTest status=SUCCESS method=RegisterTest.registerFormSubmitBtnTest()[pri:13, instance:tests.RegisterTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.RegisterTest@5032714f]" started-at="2023-03-01T06:20:43Z" name="afterTest" finished-at="2023-03-01T06:20:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
